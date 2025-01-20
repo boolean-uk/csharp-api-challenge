@@ -22,11 +22,11 @@ You'll need these:
 
 ## Core Criteria
 
-Ideally your solution should contain 3 projects:
+Ideally your solution should be well commented and contain 3 projects:
 
 - classlib project containing the engine for the dishwasher
+- webapi project that references and integrates with the engine
 - nunit project to test the dishwasher engine
-- webapi project that integrates with the engine
 
 Include the following:
 
