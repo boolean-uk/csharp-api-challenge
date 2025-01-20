@@ -2,6 +2,8 @@
 
 Welcome to the Smart Dishwasher Challenge
 
+![](smart_dishwasher.jpg "Smart Dishwasher")
+
 ## Learning Objectives
 
 - Build a smart dishwasher api to be deployed to a dishwasher appliance
