@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dishwasher.engine", "Dishwasher.engine\Dishwasher.engine.csproj", "{3C917DA5-CBC7-4C82-856C-996EC81D629E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dishwasher.tests", "Dishwasher.tests\Dishwasher.tests.csproj", "{AAD4B43F-2DCF-4EE8-B429-3C46C6DF82CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dishwasher.api", "Dishwasher.api\Dishwasher.api.csproj", "{DBE4A94B-3CB4-4C05-AB35-B7192E5F2EFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C917DA5-CBC7-4C82-856C-996EC81D629E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C917DA5-CBC7-4C82-856C-996EC81D629E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C917DA5-CBC7-4C82-856C-996EC81D629E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C917DA5-CBC7-4C82-856C-996EC81D629E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAD4B43F-2DCF-4EE8-B429-3C46C6DF82CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAD4B43F-2DCF-4EE8-B429-3C46C6DF82CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAD4B43F-2DCF-4EE8-B429-3C46C6DF82CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAD4B43F-2DCF-4EE8-B429-3C46C6DF82CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBE4A94B-3CB4-4C05-AB35-B7192E5F2EFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBE4A94B-3CB4-4C05-AB35-B7192E5F2EFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBE4A94B-3CB4-4C05-AB35-B7192E5F2EFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBE4A94B-3CB4-4C05-AB35-B7192E5F2EFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
