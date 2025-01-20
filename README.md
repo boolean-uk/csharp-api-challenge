@@ -9,7 +9,7 @@ Welcome to the Smart Dishwasher Challenge
 - Build a smart dishwasher api to be deployed to a dishwasher appliance
 - Use `git` & GitHub to commit work and open a Pull Request
 
-##### Dishwasher Programs Values
+## Dishwasher Programs Values
 
 You'll need these:
 
@@ -22,24 +22,28 @@ You'll need these:
 
 ## Core Criteria
 
-- Your solution should contain 3 projects:
-  - classlib project containing the engine for the dishwasher
-  - nunit project to test the dishwasher engine
-  - webapi project with the following endpoints:
-    - GET available programs to run
-    - POST Program to start
-    - GET current running Program including other info e.g. time remaining
-    - GET last 150 Programs run
-    - GET usage statistics including total water and electricity consumed, average
+Ideally your solution should contain 3 projects:
+
+- classlib project containing the engine for the dishwasher
+- nunit project to test the dishwasher engine
+- webapi project that integrates with the engine
+
+Include the following:
+
+- GET available programs to run
+- POST Program to start
+- GET current running Program including other info e.g. time remaining
+- GET last 150 Programs run
+- GET usage statistics including total water and electricity consumed, average
 
 ## Extended Criteria
 
 For some of the extended criteria, pick at least 3 of the following
 
 - DELETE verb so a user can cancel the current program
-- GET current running program should be modified to indicate the Rinse Aid is running low or empty. Rinse aid runs out for every 40 litres of consumption. Rinse aid capacity is 1 litre.
-- GET current running program should be modified to indicate the Salt is running low or empty. Salt runs out for every 60 litres of consumption. Salt capacity is 3 litres.
-- GET to warn users that the tablets are running low or gone! Dishwasher tablets come in a box of 63 and each program cycle uses just one tablet.
-- GET to warn user that a clean cycle is recommended after 50 hours of dishwasher use.
+- GET current running program should be modified to include a message that indicates the Rinse Aid is running low or empty. Rinse aid runs out for every 40 litres of consumption. Rinse aid capacity is 1 litre.
+- GET current running program should be modified to include a message that indicates the Salt is running low or empty. Salt runs out for every 60 litres of consumption. Salt capacity is 3 litres.
+- GET current running program should modified to include a warning to users that the tablets are running low or gone! Dishwasher tablets come in a box of 63 and each program cycle uses just one tablet.
+- GET current running program should be modified to include a warning to users that a clean cycle is recommended. This should occur after 50 hours of dishwasher use or 50 hours since the last clean cycle.
 
-Please include a .http file which can be used to run the core / extension endpoints
+**Please include a .http file which can be used to run the core / extension endpoints**
